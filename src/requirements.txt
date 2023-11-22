@@ -1,7 +1,7 @@
 Flask
 SQLAlchemy
 gunicorn
-
+modal-client
 PyMySQL
 coloredlogs
 python-dotenv
