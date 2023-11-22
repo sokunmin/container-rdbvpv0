@@ -1,3 +1,15 @@
+# v0.0.2 (Wed Nov 22 2023)
+
+#### ⚠️ Pushed to `main`
+
+- feat: add Poe installation using modal-client ([@sokunmin](https://github.com/sokunmin))
+
+#### Authors: 1
+
+- Chun-Ming Su ([@sokunmin](https://github.com/sokunmin))
+
+---
+
 # v0.0.1 (Sun Nov 19 2023)
 
 :tada: This release contains work from a new contributor! :tada:
