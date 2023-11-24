@@ -3,17 +3,16 @@ FROM python:3-alpine
 
 ENV PYTHONUNBUFFERED=1
 
-RUN apk update && apk add --no-cache git
+RUN apk update && apk add --no-cache git gcc musl-dev
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
-COPY requirements.txt /usr/src/app/
+COPY ./main.py /app/main.py
 
 RUN pip install -U -r requirements.txt
-RUN modal token new --source poe
 
-RUN git clone https://github.com/poe-platform/server-bot-quick-start
+#ENTRYPOINT ["tail"]
+#CMD ["-f", "/dev/null"]
 
-#COPY ./web /usr/src/app/
-COPY ./entrypoint.sh /
-ENTRYPOINT ["/entrypoint.sh"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5003"]
+
