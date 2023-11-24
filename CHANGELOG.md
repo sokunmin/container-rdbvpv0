@@ -1,3 +1,15 @@
+# v0.0.3 (Fri Nov 24 2023)
+
+#### ⚠️ Pushed to `main`
+
+- feat: add EchoBot of Poe with FastAPI service. (jimmy_su@chiconypower.com)
+
+#### Authors: 1
+
+- Jimmy Su (jimmy_su@chiconypower.com)
+
+---
+
 # v0.0.2 (Wed Nov 22 2023)
 
 #### ⚠️ Pushed to `main`
