@@ -1,3 +1,15 @@
+# v0.0.5 (Fri Nov 24 2023)
+
+#### ⚠️ Pushed to `main`
+
+- feat: add echo endpoint for testing (jimmy_su@chiconypower.com)
+
+#### Authors: 1
+
+- Jimmy Su (jimmy_su@chiconypower.com)
+
+---
+
 # v0.0.4 (Fri Nov 24 2023)
 
 #### ⚠️ Pushed to `main`
