@@ -7,13 +7,16 @@ RUN apk update && apk add --no-cache git gcc musl-dev
 
 WORKDIR /app
 
-COPY ./main.py /app/main.py
+COPY ./echo.py /app/echo.py
 COPY ./requirements.txt /app/requirements.txt
 
 RUN pip install -U -r requirements.txt
 
+
+EXPOSE 5003
+
 #ENTRYPOINT ["tail"]
 #CMD ["-f", "/dev/null"]
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5003"]
+CMD ["uvicorn", "echo:app", "--host", "0.0.0.0", "--port", "5003"]
 
