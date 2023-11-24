@@ -1,3 +1,15 @@
+# v0.0.6 (Fri Nov 24 2023)
+
+#### ⚠️ Pushed to `main`
+
+- feat: remove expose port in Dockerfile ([@sokunmin](https://github.com/sokunmin))
+
+#### Authors: 1
+
+- Chun-Ming Su ([@sokunmin](https://github.com/sokunmin))
+
+---
+
 # v0.0.5 (Fri Nov 24 2023)
 
 #### ⚠️ Pushed to `main`
