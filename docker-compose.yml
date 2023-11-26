@@ -7,10 +7,14 @@ services:
       context: ./src
     ports:
       - "5003:5003"
-    volumes:
-      - type: bind
-        source: ./src/web
-        target: /usr/src/app
+#    volumes:
+#      - type: bind
+#        source: ./src/web
+#        target: /usr/src/app
+#      - type: bind
+#        source: ./src/app
+#        target: /app
+
     environment:
       ALLOWED_HOSTS: "127.0.0.1,localhost"
 #      DATABASE_URL: mysql2=//app_user=password@db=3306/app_database?pool=5&useUnicode=true&characterEncoding=UTF-8

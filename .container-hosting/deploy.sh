@@ -139,6 +139,8 @@ mv ./amber ./bin/amber
 PATH=./bin:$PATH
 
 echo Setup ssh to talk to dokku host
+echo "DOKKU_HOST: ${DOKKU_HOST}"
+echo "SSH_CONFIG_FILE: ${SSH_CONFIG_FILE}"
 mkdir -p ~/.ssh
 amber -v exec -- sh -c 'ssh-keyscan $DOKKU_HOST >> ~/.ssh/known_hosts'
 eval "$(ssh-agent -s)"
