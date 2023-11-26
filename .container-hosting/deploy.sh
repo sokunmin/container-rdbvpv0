@@ -102,8 +102,8 @@ if [ "$RUNNING_WITHIN_CI_PIPELINE" -eq 0 ]; then
 fi
 
 echo Checking if provided DOKKU_SSH_PRIVATE_KEY key requires a passphrase
-echo "DOKKU_HOST: ${DOKKU_HOST}"
-echo "SSH_CONFIG_FILE: ${SSH_CONFIG_FILE}"
+#echo "DOKKU_HOST: ${DOKKU_HOST}"
+#echo "SSH_CONFIG_FILE: ${SSH_CONFIG_FILE}"
 
 if ssh-keygen -y -P "" -f /dev/stdin <<<"$DOKKU_SSH_PRIVATE_KEY"&>/dev/null; then
         echo "✅ DOKKU_SSH_PRIVATE_KEY does not require a passphrase. OK."
