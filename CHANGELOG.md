@@ -1,3 +1,15 @@
+# v0.0.9 (Sun Nov 26 2023)
+
+#### ⚠️ Pushed to `main`
+
+- feat: update script ([@sokunmin](https://github.com/sokunmin))
+
+#### Authors: 1
+
+- Chun-Ming Su ([@sokunmin](https://github.com/sokunmin))
+
+---
+
 # v0.0.8 (Sun Nov 26 2023)
 
 #### ⚠️ Pushed to `main`
