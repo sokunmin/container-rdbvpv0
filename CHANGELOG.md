@@ -1,3 +1,16 @@
+# v0.0.7 (Sun Nov 26 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Merge remote-tracking branch 'origin/main' ([@sokunmin](https://github.com/sokunmin))
+- feat: update PRIVATE_KEY ([@sokunmin](https://github.com/sokunmin))
+
+#### Authors: 1
+
+- Chun-Ming Su ([@sokunmin](https://github.com/sokunmin))
+
+---
+
 # v0.0.6 (Fri Nov 24 2023)
 
 #### ⚠️ Pushed to `main`
